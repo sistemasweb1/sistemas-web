@@ -1,0 +1,61 @@
+Ejercicio 5:
+	var  firstName = "John", lastName = Doe,	age=35;
+---------------------------------------------------------------
+JS Operadores
+Ejercicio 1:
+	alert(10 * 5);
+Ejercicio 2:
+	alert(10 / 2);
+Ejercicio 3:
+	alert(15 % 9);
+Ejercicio 4:
+	x = 10;
+	y = 5;
+	x += y;
+Ejercicio 5:
+	x = 10;
+	y = 5;
+	x *= y;
+----------------------------------------------------------------
+Funciones:
+Ejercicio 1:
+	function myFunction() {
+  		alert("Hello World!");
+	};	
+Ejercicio 2:
+	function myFunction() {
+  		alert("Hello World!");
+	}
+Ejercicio 3:
+	function myFunction() {
+ 		 return "hello";
+	}
+	document.getElementById("demo").innerHTML = myFunction();
+Ejercicio 4:
+	function myFunction() {
+  		document.getElementById("demo"). innerHTML= "Hello";
+	}
+--------------------------------------------------------------------
+Objetos:
+Ejercicio 1:
+	var person = {
+ 		 firstName: "John",
+ 		 lastName: "Doe"
+	};
+	alert(person.firstName);
+Ejercicio 2:
+	var person = {
+  		firstName: "John",
+  		lastName: "Doe",
+  		country	: "Norway"
+	};
+Ejercicio 3:
+	var person  {
+  		name: "John", age: 50
+	};
+	alert( person.name + " is " + person.age);
+---------------------------------------------------------------------
+Eventos:
+Ejercicio 1:
+	<button onclick ="alert('Hello')">Click me.</button>
+Ejercicio 2:
