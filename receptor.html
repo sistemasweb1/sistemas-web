@@ -1,0 +1,42 @@
+	<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="js/socket.io.js"></script>
+<script src="js/funcionre.js"></script>
+
+</head>
+<body>
+	<title>Approval</title>
+	
+<div class="navbar">
+	<h2 > CCR &nbsp;  </h2>
+	<p>Credit Card Request</p>
+</div >
+<div class=container>
+	<div>
+	
+	<form id='inpu'action="/action_page.php">
+		&nbsp;<img id='imagen' src=""  height="100" width="200"> <br><br>
+			<strong>Type of card:</strong> <p id='card'></p><br>
+			<strong>First Name:</strong> <p id='name'></p><br>
+			<strong>Last Name:</strong> <p id='last'></p><br>
+		<div id='birth'>
+			<strong>Birthday :</strong> <p id='bmonth'></p>/<p id='bday'></p>/<p id='byear'></p> 
+		</div><br><br>
+			<strong>Address:</strong>  <p id='adress'></p><br>
+			<strong>Phone Number:</strong> <p id='phone'></p><br> 
+			<strong>Company Name:</strong> <p id='company'></p><br>
+			<strong>Salary per Month:</strong> <p id='salary'></p><br>
+			<strong>Senioriti in the Company:</strong> <p id='senioriti'></p><br>
+			<strong>Contact Number:</strong> <p id='contact'></p> 
+			<a id='sendt' href="#" class="myButton">approved</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a id='sendf' href="#" class="myButton">denied</a>
+	</form>
+	</div>
+</div>
+</body>

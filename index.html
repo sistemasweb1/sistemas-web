@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=BenchNine" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=BenchNine" rel="stylesheet"> 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="js/socket.io.js"></script>
+<script src="js/funcion.js"></script>
+</head>
+<body>
+	<title>Request</title>
+<div class="navbar">
+	<h2 > CCR &nbsp;  </h2>
+	<p>Credit Card Request</p>
+</div >
+<div class=container>
+	<div class="leftbar"> 
+		<ul>
+			<li ><a id='Visa' href="#">Visa</a></li>
+			<li><a id='Master'href="#">Master Card</a></li>
+			<li><a id='American'href="#">American Expres</a></li>
+		</ul>
+	</div>
+	<div id="wait">
+		<img id='limagen' src="loading.gif"  height="150" width="300">
+		<h2 id="alert"> Wait for approval</h2>
+	</div>
+	<form id='inpu'action="/action_page.php">
+		&nbsp;<img id='imagen' src="american.png"  height="100" width="200"> <br><br>
+		<strong>First Name: </strong><input id='name' type="text" name="FirstName" value=""><br>
+		<strong>Last Name:  </strong><input id='lastname'type="text" name="LastName" value=""><br>
+		<div class=select>
+		<strong> Birthday :</strong>	 <p id='put'>Month</p><select id='birthdaymonth'></select>
+			<p id='put'>Day</p><select id='birthdayday'></select>
+			<p id='put'>Year</p><select id='birthdayyear'></select><br>
+		</div>
+		<strong>Address:</strong> <input id='adress'type="text" name="Address" value=""><br>
+		<strong>Phone Number:</strong> <input id='phone' type="text" name="Phone Number" value=""><br>
+		<strong>Company Name:</strong> <input id='company'type="text" name="Company Name" value=""><br>
+		<strong> Per Month:</strong><input id='salary'type="text" name="Salary per Month " value=""><br>
+		<strong>Senioriti in the Company:</strong> <input id='senioriti'type="text" name="Senioriti in the Company" value=""><br>
+		<strong>Contact Number:</strong> <input id='contact'type="text" name="Contact Number" value=""><br>
+		<a id='send' href="#" class="myButton">Send</a>
+	</div>
+		 
+	</form>
+	</div>
+</div>
+</body>
+</html>
+
